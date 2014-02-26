@@ -29,7 +29,7 @@ void ShadowWindow::paintEvent( QPaintEvent * event )
     painter.drawPixmap( width() - 14, 14, 14, height() - 28, shadowPixmap, 15, 14, 14, 1 );
     painter.drawPixmap( width() - 14, height() - 14, shadowPixmap, 15, 15, 14, 14 );
 
-    painter.drawPixmap( 14, height() - 14, width() - 28, 14,  hadowPixmap, 15, 15, 1, 14 );
+    painter.drawPixmap( 14, height() - 14, width() - 28, 14, shadowPixmap, 15, 15, 1, 14 );
 
     QWidget::paintEvent( event );
 }
